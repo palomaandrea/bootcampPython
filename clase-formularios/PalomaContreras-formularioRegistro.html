@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro, por Paloma Contreras</title>
+</head>
+<body>
+    <h1>¡Regístrate y únete a la comunidad!</h1>
+    <form action="#" method="post">
+        <div>
+            <label>Nombre: </label>
+            <input type="text" name="primer_nombre">
+        </div><br>
+        <div>
+            <label>Apellido: </label>
+            <input type="text" name="primer_apellido">
+        </div><br>
+        <div>
+            <label>Correo electrónico: </label>
+            <input type="email" name="email">
+        </div><br>
+        <div>
+            <label>Contraseña: </label>
+            <input type="password" name="password">
+        </div><br>
+        <div>
+            <label>Confirmar Contraseña: </label>
+            <input type="password" name="password">
+        </div><br>
+        <div>
+            <label>Fecha de Nacimiento: </label>
+            <input type="date" name="fecha_nacimiento">
+        </div><br>
+        <div>
+            <label>Género: </label>
+            <input type="radio" name="Masculino">
+            <label for="Masculino">Masculino</label>
+            <input type="radio" name="Femenino">
+            <label for="Femenino">Femenino</label>
+            <input type="radio" name="No-Decir">
+            <label for="No-Decir">Prefiero no decir</label>
+        </div><br>
+        <div>
+            <input type="checkbox" name="Suscribirse">
+            <label for="Suscribirse">Suscríbete a nuestro boletín de noticias</label>
+        </div><br>
+        <div>
+            <label for="Descripcion">Una descripción de mi mismo: </label><br>
+            <textarea name="Descripcion" id="Descripcion"> </textarea>
+        </div><br>
+        <div>
+            <label for="Intereses">Selecciona tus intereses: </label><br>
+            <select multiple name="Intereses" id="Intereses">
+                <option value="musica">Música</option>
+                <option value="deportes">Deportes</option>
+                <option value="viajes">Viajes</option>
+                <option value="tecnologia">Tecnología</option>
+            </select>
+        </div><br>
+        <div>
+            <input type="submit" value="¡Registrarse!">
+        </div>
+    </form>
+</body>
+</html>
