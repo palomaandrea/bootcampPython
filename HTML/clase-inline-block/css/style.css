@@ -1,0 +1,22 @@
+.bandera{
+    width: 600px;
+    height: 300px;
+    display: inline-block;
+}
+
+.franja{
+    width: 33.33%;
+    height: 100%;
+}
+
+#verde{
+    background-color: rgb(42, 156, 19);
+}
+
+#blanco{
+    background-color: rgb(255, 255, 255);
+}
+
+#naranjo{
+    background-color: rgb(248, 133, 91);
+}
