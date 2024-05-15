@@ -7,6 +7,9 @@
 .top-nav {
     height: 150px;
     background-color: #ffcc00;
+    vertical-align: top;
+    margin: 2% 2% 2% 2%;
+    display: block;
 }
 
 .side-nav {
@@ -14,24 +17,40 @@
     width: 225px;
     background-color: #66ccff;
     margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
 }
 
 .main {
     height: 400px;
     width: 700px;
     background-color: deeppink;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .sub-content {
     height: 200px;
-    width: 210px;
+    width: 200px;
     background-color: mediumblue;
     display: inline-block;
+    vertical-align: top;
+    margin-top: 1%;
 }
 
 #advertisement {
     height: 120px;
     width: 660px;
     background-color: #33cc33;
-    margin: 10px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#uno{
+    padding-top: 5%;
+    margin-top: 5%;
 }
