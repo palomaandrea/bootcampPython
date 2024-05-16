@@ -3,6 +3,7 @@
     height: 200px;
     background-color: grey;
     display: flex;
+    align-items: center;
 }
 
 img {
