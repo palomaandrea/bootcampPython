@@ -4,7 +4,14 @@
     background-color: grey;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    /* Podemos ubicarlos en distintos lugares. Habilitemos nuestra alternativa favorita */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* También podemos aumentar o disminuir el espacio entre ellos*/
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
 }
 
 img {
