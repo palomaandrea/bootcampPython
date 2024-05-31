@@ -1,26 +1,32 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.network-banner {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .message-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #fff;
+    margin: 10px;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .message-content h2 {
-    margin: 0;
+    margin: 0 0 10px 0;
     color: #333;
 }
 
 .message-content p {
-    margin: 5px 0;
+    margin: 0;
     color: #666;
 }
 
@@ -37,7 +43,7 @@ body {
     display: flex;
     align-items: center;
     font-size: 16px;
-    color: #333;
+    margin-top: 10px;
 }
 
 .like-section span {
