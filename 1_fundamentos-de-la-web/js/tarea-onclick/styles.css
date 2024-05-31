@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+main {
+    padding: 20px;
+}
+
+.pet {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.pet h2 {
+    color: #333;
+}
+
+.pet p {
+    font-size: 16px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+}

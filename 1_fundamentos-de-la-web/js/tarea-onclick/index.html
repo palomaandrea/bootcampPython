@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Petlopedia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Petlopedia</h1>
+        <button>Iniciar sesión</button>
+    </header>
+    <main>
+        <section class="pet">
+            <h2>Gato Atigrado</h2>
+            <p>Un gato con un pelaje distintivo que presenta rayas, puntos o patrones en resumido, conformando una marca
+                en forma de "M" en su frente.</p>
+            <button>22 me gusta</button>
+        </section>
+        <section class="pet">
+            <h2>Golden Retriever</h2>
+            <p>Una raza de perro amistosa, inteligente y devota, conocida por su pelaje dorado y su habilidad para
+                recuperar objetos en diarios.</p>
+            <button>45 me gusta</button>
+        </section>
+        <form action="/agregar-definicion" method="post">
+            <input type="text" placeholder="Agregar Definición">
+            <button type="submit">Agregar Definición</button>
+        </form>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
