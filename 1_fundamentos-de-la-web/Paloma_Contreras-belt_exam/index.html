@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Refugio de Mascotas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Hammersmith+One&family=Lexend+Deca:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Refugio de Mascotas</h1>
+        <nav>
+            <a href="#find">Buscar Mascota</a>
+            <a href="#about">Sobre Nosotros</a>
+            <button id="donate">Donar</button>
+        </nav>
+    </header>
+    <main>
+        <section id="search">
+            <label for="pet-select">Estoy buscando un:</label>
+            <select id="pet-select">
+                <option value="cualquiera">Cualquier Mascota</option>
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+            </select>
+            <input type="text" placeholder="Ciudad o código postal">
+            <button onclick="searchPets()">Encuentra tu nuevo mejor amigo</button>
+        </section>
+        <section id="pet-list">
+            <article>
+                <img src="img/pepper.jpg" alt="Gata Pepper">
+                <div>
+                    <h2>Pepper</h2>
+                    <p>Pepper es una gata tímida pero afectuosa.</p>
+                    <button onclick="pet('Pepper')">Acariciar a Pepper</button>
+                    <span id="Pepper-pets">2 caricias</span>
+                </div>
+            </article>
+            <article>
+                <img src="img/bruce.jpg" alt="Perro Bruce">
+                <div>
+                    <h2>Bruce</h2>
+                    <p>Bruce es un compañero leal que ama los paseos.</p>
+                    <button onclick="pet('Bruce')">Acariciar a Bruce</button>
+                    <span id="Bruce-pets">5 caricias</span>
+                </div>
+            </article>
+            <article>
+                <img src="img/oscar.jpg" alt="Perro Oscar">
+                <div>
+                    <h2>Oscar</h2>
+                    <p>Oscar es brillante, enérgico y busca un hogar.</p>
+                    <button onclick="pet('Oscar')">Acariciar a Oscar</button>
+                    <span id="Oscar-pets">8 caricias</span>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

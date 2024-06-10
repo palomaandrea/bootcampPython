@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.lexend-deca-<uniquifier> {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0d868f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+h1{
+    font-family: "Lexend Deca", sans-serif;
+}
+
+h2, button{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 450;
+}
+
+p, label, input, select, span{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 300;
+}
+
+span{
+    font-style: italic;
+    font-weight: 200;
+}
+
+nav a,
+nav button {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pet-select {
+    margin-right: 10px;
+}
+
+#pet-list article {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#pet-list img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#pet-list div {
+    display: flex;
+    flex-direction: column;
+}
+
+#pet-list h2 {
+    margin: 0;
+}
+
+#pet-list p {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #0d868f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #074a4e;
+}
+
+#donate{
+    background-color: #13b4c06e;
+}

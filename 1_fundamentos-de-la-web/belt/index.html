@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Refugio de Mascotas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Refugio de Mascotas</h1>
+        <nav>
+            <a href="#find">Find a Pet</a>
+            <a href="#about">About</a>
+            <button id="donate">Donate</button>
+        </nav>
+    </header>
+    <main>
+        <section id="search">
+            <label for="pet-select">I'm looking for a...</label>
+            <select id="pet-select">
+                <option value="any">Any Pet</option>
+            </select>
+            <input type="text" placeholder="City or Zip Code">
+            <button onclick="findPet()">Find my new best friend</button>
+        </section>
+        <section id="pet-list">
+            <article>
+                <img src="img/pepper.jpg" alt="Pepper the cat">
+                <div>
+                    <h2>Pepper</h2>
+                    <p>Pepper is a slightly shy grey tabby, but she really loves showing her human affection.</p>
+                    <button onclick="pet('Pepper')">Pet Pepper</button>
+                    <span>3 petting(s)</span>
+                </div>
+            </article>
+            <!-- Repite los artículos para otros animales -->
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
